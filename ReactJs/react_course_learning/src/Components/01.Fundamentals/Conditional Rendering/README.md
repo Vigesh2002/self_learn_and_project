@@ -37,9 +37,9 @@ Inside the App component, render each component with different props to test the
 Example:
 
 function App() {
-  return (
-    <div>
-      <h1>Conditional Rendering in React</h1>
+return (
+<div>
+<h1>Conditional Rendering in React</h1>
 
       {/* Weather component */}
       <Weather temperature={10} />
@@ -55,7 +55,8 @@ function App() {
       <Greeting timeOfDay="afternoon" />
       <Greeting />
     </div>
-  );
+
+);
 }
 
 export default App;
