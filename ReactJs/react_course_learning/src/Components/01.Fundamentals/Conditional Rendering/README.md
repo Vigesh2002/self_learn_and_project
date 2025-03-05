@@ -10,6 +10,8 @@ Use if, else if, and else statements to conditionally render different messages 
 If the temperature is below 15, display: "It's cold outside!"
 If the temperature is between 15 and 25, display: "It's nice outside!"
 If the temperature is above 25, display: "It's hot outside!"
+
+
 Step 2: Create a UserStatus Component with the && Operator
 Create a new file called UserStatus.jsx.
 Inside this file, create a functional component called UserStatus.
@@ -18,6 +20,8 @@ Take two boolean props loggedIn, isAdmin
 Use the && operator to display a message for Admin & Normal User:
 If loggedIn is true and isAdmin display: "Welcome Admin!"
 If it's just loggedIn and not admin then display "Welcome User".
+
+
 Step 3: Create a Greeting Component with a Ternary Operator
 Create a new file called Greeting.jsx.
 Inside this file, create a functional component called Greeting.
