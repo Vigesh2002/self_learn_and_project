@@ -7,6 +7,7 @@ import Index4 from './Components/01.Fundamentals/Props Destructuring/Index4'
 import Index5 from './Components/01.Fundamentals/Props Children/Index5'
 import Index6 from './Components/01.Fundamentals/Conditional Rendering/Index6'
 import Index7 from './Components/01.Fundamentals/Events/Index7'
+import Index8 from './Components/01.Fundamentals/State/Index8'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       {/* <Index5/> */}
       {/* <Index6 /> */}
       {/* <Index7 /> */}
+      <Index8/>
     </div>
   )
 }
